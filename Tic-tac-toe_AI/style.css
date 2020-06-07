@@ -1,0 +1,113 @@
+
+.favicon{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+
+}
+
+h2{
+	text-align: center;
+	font-size: 3em;
+	font-family: Copperplate Gothic Light;
+	font-color:gold;
+}
+
+
+
+body {
+	background-color: red;
+	background-image: url("img5.png");
+	background-size:contain;
+	
+
+
+}
+
+.list {
+	list-style-type: none;
+}
+
+
+
+td{
+	border: 2px solid #FFFF00;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 70px;
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+	position: relative;
+	left: 50%;
+	margin-left:-155px;
+	top: 50px;
+}
+
+table tr:first-child td {
+	border-top: 0;
+}
+
+table tr:last-child td {
+	border-bottom: 0;
+}
+
+table tr td:first-child {
+    border-left: 0;    
+}
+
+table tr td:last-child {
+    border-right: 0;    
+}
+
+.endgame {
+	display: none;
+	width: 200px;
+	top: 120px;
+	background-color: rgba(205,133,63,0.8);
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	margin-top: 700px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	font-size: 2em;
+
+}
+
+.footer {
+	background: #111;
+	color: #dde26a;
+	text-align: center;
+	padding: 2.5em 0;
+	font-size: 1em;
+}
+.social-list__link:hover {
+	opacity:.7;
+} 
+.footer__link:hover{
+	text-decoration: underline;
+}
+.social-list {
+	list-style: none;
+	display:inline-flex;
+	justify-content: center;
+	margin:2em 0 0;
+	padding:0;
+	font-size: 1em;
+}
+.social-list__item{
+	margin:0 .5em;
+}
+.social-list__link{
+     padding: .5em;
+}
