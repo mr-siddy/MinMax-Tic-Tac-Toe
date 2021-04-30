@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+     
+ <header>
+	<img class="favicon" src="fav.png">
+
+    <section class="algo">
+
+	<h2 class="white">AI Based Tic-Tac-Toe</h2>
+	<br>
+	<br>
+	<div>
+		<p>
+			<h3>The Game</h3>
+			Tic-tac-toe (American English), noughts and crosses (British English), or Xs and Os is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.<br>
+			This is Java Script bases project in which we have developed basic unbeatable ai using minmax algorithm.
+			<h3>Minimax  Algorithm</h3>
+			Like a professional chess player, this algorithm sees a few steps ahead and puts itself in the shoes of its opponent. It keeps playing ahead until it reaches a terminal arrangement of the board (terminal state) resulting in a tie, a win, or a loss. Once in a terminal state, the AI will assign an arbitrary positive score (+10) for a win, a negative score (-10) for a loss, or a neutral score (0) for a tie.<br>
+            At the same time, the algorithm evaluates the moves that lead to a terminal state based on the players’ turn. It will choose the move with maximum score when it is the AI’s turn and choose the move with the minimum score when it is the human player’s turn. Using this strategy, Minimax avoids losing to the human player.<br>
+			A Minimax algorithm can be best defined as a recursive function that does the following things:
+            <ul class="list">
+            	<li>return a value if a terminal state is found (+10, 0, -10).</li>
+            	<li>go through available spots on the board.</li>
+            	<li>call the minimax function on each available spot (recursion).</li>
+            	<li>evaluate returning values from function calls.</li>	
+            	<li>and return the best value</li>
+            </ul>
+
+		</p>
+	</div>
+</section>
+</header>
+
+
+  
+
+    <section class="thegame" >
+    <table>
+    	<tr>
+    		<td class="cell" id="0"></td>
+    		<td class="cell" id="1"></td>
+    		<td class="cell" id="2"></td>
+    	</tr>    	
+    	<tr>
+    		<td class="cell" id="3"></td>
+    		<td class="cell" id="4"></td>
+    		<td class="cell" id="5"></td>
+    	</tr>    	
+    	 <tr>
+    		<td class="cell" id="6"></td>
+    		<td class="cell" id="7"></td>
+    		<td class="cell" id="8"></td>
+    	</tr>
+    </table>
+
+    <div class="endgame">
+    	<div class="text"></div>
+    	<button onClick="startGame()">Replay</button>
+
+    </div>
+
+    </section>
+
+
+<br>
+<br>
+<br><br><br>
+<footer class="footer">
+        		<a href="mailto:mrsiddy.py@gmail.com" class="footer__link">mrsiddy.py@gmail.com</a>
+        		<ul class="social-list">
+        			<li class="social-list__item">
+        				<a class="social-list__link" href="https://www.instagram.com/s.i.d.d.y_saxena/">Instagram</a>
+        			</li>
+        			<li class="social-list__item">
+        				<a class="social-list__link" href="https://www.linkedin.com/in/siddhant-saxena-445964182/">LinkedIn</a>
+        			</li>
+        			<li class="social-list__item">
+        				<a class="social-list__link" href="https://twitter.com/god_siddy">Twitter</a>
+        			</li>
+        			<li class="social-list__item">
+        				<a class="social-list__link" href="https://github.com/mr-siddy">Github</i></a>
+        			</li>
+        		</ul>
+        	</footer>
+
+    
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
