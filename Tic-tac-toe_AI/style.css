@@ -17,7 +17,7 @@ h2{
 
 
 body {
-	background-color: red;
+	background-color: white;
 	background-image: url("Tic-tac-toe_AI/img_new");
 	background-size:contain;
 	
@@ -79,7 +79,7 @@ table tr td:last-child {
 	padding-bottom: 50px;
 	text-align: center;
 	border-radius: 5px;
-	color: white;
+	color: blue;
 	font-size: 2em;
 
 }
