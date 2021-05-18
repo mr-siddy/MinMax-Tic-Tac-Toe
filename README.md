@@ -6,7 +6,7 @@ Implementation :- http://mrsiddy.me/AI-Tic-Tac-Toe
 
 
 
-![](D:\AI-Tic-Tac-Toe\Tic-tac-toe_AI\game.gif)
+![](Tic-tac-toe_AI\game.gif)
 
 ## Pseudo-code for MinMax Algorithm:
 
