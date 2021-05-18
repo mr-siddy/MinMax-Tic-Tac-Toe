@@ -30,4 +30,4 @@ Implementation :- http://mrsiddy.me/AI-Tic-Tac-Toe
 
 
 
-![](D:\AI-Tic-Tac-Toe\Tic-tac-toe_AI\Game-tree-for-Tic-Tac-Toe-game-using-MiniMax-algorithm.png)
+![](Tic-tac-toe_AI\Game-tree-for-Tic-Tac-Toe-game-using-MiniMax-algorithm.png)
