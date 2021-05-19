@@ -6,7 +6,7 @@ Implementation :- http://mrsiddy.me/AI-Tic-Tac-Toe
 
 
 
-![](Tic-tac-toe_AI\game.gif)
+![game](Tic-tac-toe_AI\game.gif)
 
 ## Pseudo-code for MinMax Algorithm:
 
@@ -30,4 +30,4 @@ Implementation :- http://mrsiddy.me/AI-Tic-Tac-Toe
 
 
 
-![](Tic-tac-toe_AI\Game-tree-for-Tic-Tac-Toe-game-using-MiniMax-algorithm.png)
+![minimax](Tic-tac-toe_AI\Game-tree-for-Tic-Tac-Toe-game-using-MiniMax-algorithm.png)
