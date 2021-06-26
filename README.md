@@ -2,7 +2,7 @@
 Ai driven tic-tac-toe using Minimax  Algorithm in JS   ![Formula](https://www.gstatic.com/education/formulas2/355397047/en/minimax.svg)
 
 
-Implementation :- http://mrsiddy.me/AI-Tic-Tac-Toe
+Implementation :- http://mr-siddy.github.io/AI-Tic-Tac-Toe
 
 
 
